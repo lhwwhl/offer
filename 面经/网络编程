@@ -1,0 +1,6 @@
+1.五种I/O 模式：
+	【1】阻塞I/O           (Linux下的I/O操作默认是阻塞I/O，即open和socket创建的I/O都是阻塞I/O)
+	【2】非阻塞 I/O        (可以通过fcntl或者open时使用O_NONBLOCK参数，将fd设置为非阻塞的I/O)
+	【3】I/O 多路复用     (I/O多路复用，通常需要非阻塞I/O配合使用)
+	【4】信号驱动 I/O    (SIGIO)
+	【5】异步 I/O
